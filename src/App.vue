@@ -1,33 +1,19 @@
 <template>
     <TheHeaderVue title="RemeberMe"/>
-   <StoredResource :resources="storedResources"/>
-
+    <TheResource/>
 </template>
  
 <script>
 import TheHeaderVue from '../src/components/layout/TheHeader.vue';
-import StoredResource from './components/learning-resorse/StoredResource.vue';
+import TheResource from './components/learning-resorse/TheResource.vue';
 export default {
     components:{
-        StoredResource,
-        TheHeaderVue
-    },
+    TheHeaderVue,
+    TheResource
+},
     data() {
         return {
-            storedResources: [
-                {
-                    id: 'google',
-                    name: 'Googel',
-                    descreption: 'blablabla',
-                    link: 'https://google.com'
-                },
-                {
-                    id: 'elzero',
-                    name: 'Elzero',
-                    descreption: 'bla bla ',
-                    link: 'https://elzero.org'
-                }
-            ]
+           
         }
     }
 }
