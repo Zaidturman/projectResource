@@ -1,5 +1,5 @@
 <template>
-    <TheHeaderVue title="RemeberMe"/>
+    <TheHeaderVue title="Remeber Me"/>
     <TheResource/>
 </template>
  

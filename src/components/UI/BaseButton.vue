@@ -12,21 +12,23 @@ export default {
 button {
   padding: 0.75rem 1.5rem;
   font-family: inherit;
-  background-color: #3a0061;
-  border: 1px solid #3a0061;
+  background-color: #640032;
+  border-radius: 10px;
+  border: 1px solid #640032;
   color: white;
   cursor: pointer;
+  margin: 10px;
 }
 
 button:hover,
 button:active {
-  background-color: #270041;
-  border-color: #270041;
+  background-color: #8d0247;
+  border-color: #640032;
 }
 
 .flat {
   background-color: transparent;
-  color: #3a0061;
+  color: #640032;
   border: none;
 }
 
